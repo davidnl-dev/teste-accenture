@@ -52,13 +52,21 @@ Sistema completo de gerenciamento de pedidos desenvolvido em Laravel 12 com func
 
     > **Nota**: As migrações incluem as tabelas necessárias para o sistema de jobs (`jobs`, `failed_jobs`, `job_batches`)
 
-6. **Inicie o servidor**
+6. **Configuração de Storage**
+
+   Para servir arquivos públicos corretamente, crie o link simbólico do storage:
+
+    ```bash
+    php artisan storage:link
+    ```
+
+7. **Inicie o servidor**
 
     ```bash
     php artisan serve
     ```
 
-7. **Acesse o sistema**
+8. **Acesse o sistema**
 
     Abra seu navegador em: `http://localhost:8000`
 
@@ -156,5 +164,4 @@ Para que os jobs funcionem corretamente, certifique-se de que:
 ## ⏱️ Desenvolvimento
 
 **Tempo total: 15 horas**
-
 ---
