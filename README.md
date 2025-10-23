@@ -157,11 +157,4 @@ Para que os jobs funcionem corretamente, certifique-se de que:
 
 **Tempo total: 15 horas**
 
--   Setup e Configuração: 2h
--   Sistema de Logging: 3h
--   CRUD Completo: 4h
--   Job/Cron Automático: 3h
--   Interface e UX: 2h
--   Testes e Refinamentos: 1h
-
 ---
